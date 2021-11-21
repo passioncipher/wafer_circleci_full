@@ -90,7 +90,7 @@ def trainRouteClient():
     except Exception as e:
 
         return Response("Error Occurred! %s" % e)
-    return Response("Training successful!!")
+    return Response("Training successful!! ")
 
  port = int(os.getenv("PORT",5000))
 if __name__ == "__main__":
